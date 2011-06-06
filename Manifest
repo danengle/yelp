@@ -23,4 +23,3 @@ test/test_neighborhood_search.rb
 test/test_phone_search.rb
 test/test_review_search.rb
 test/yelp_helper.rb
-yelp.gemspec
