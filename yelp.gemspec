@@ -16,7 +16,6 @@ Gem::Specification.new do |s|
   s.require_paths = [%q{lib}]
   s.rubyforge_project = %q{yelp}
   s.rubygems_version = %q{1.8.5}
-  s.signing_key = %q{/Users/danengle/.ssh/gem-private_key.pem}
   s.summary = %q{The yelp rubygem provides a Ruby object-oriented interface to the Yelp}
   s.test_files = [%q{test/test_client.rb}, %q{test/test_neighborhood_search.rb}, %q{test/test_phone_search.rb}, %q{test/test_review_search.rb}]
 
