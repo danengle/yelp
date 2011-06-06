@@ -2,11 +2,11 @@
 
 Gem::Specification.new do |s|
   s.name = %q{yelp}
-  s.version = "0.0.1"
+  s.version = "0.0.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = [%q{Dan Engle}]
-  s.date = %q{2011-06-01}
+  s.date = %q{2011-06-06}
   s.description = %q{The yelp rubygem provides a Ruby object-oriented interface to the Yelp}
   s.email = %q{engle.68 @nospam@ gmail.com}
   s.extra_rdoc_files = [%q{CHANGELOG.rdoc}, %q{LICENSE.txt}, %q{README.rdoc}, %q{TODO.txt}, %q{lib/yelp.rb}, %q{lib/yelp/client.rb}, %q{lib/yelp/neighborhood/request/base.rb}, %q{lib/yelp/neighborhood/request/geo_point.rb}, %q{lib/yelp/neighborhood/request/location.rb}, %q{lib/yelp/phone/request/number.rb}, %q{lib/yelp/record.rb}, %q{lib/yelp/request.rb}, %q{lib/yelp/response_format.rb}, %q{lib/yelp/review/request/base.rb}, %q{lib/yelp/review/request/bounding_box.rb}, %q{lib/yelp/review/request/geo_point.rb}, %q{lib/yelp/review/request/location.rb}]

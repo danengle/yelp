@@ -1,9 +1,10 @@
+require 'psych'
 require 'rubygems'
 require 'echoe'
 $:.unshift(File.dirname(__FILE__) + "/lib")
 require 'yelp'
 
-Echoe.new('yelp', '0.0.1') do |p|
+Echoe.new('yelp', '0.0.2') do |p|
   p.description = "The yelp rubygem provides a Ruby object-oriented interface to the Yelp"
   p.url = "http://github.com/danengle/yelp"
   p.author = "Dan Engle"
