@@ -11,4 +11,5 @@ Echoe.new('yelp', '0.0.2') do |p|
   p.email = "engle.68 @nospam@ gmail.com"
   p.ignore_pattern = ["tmp/*", "script/*"]
   p.development_dependencies = []
+  p.require_sign = false
 end
