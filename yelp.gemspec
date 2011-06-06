@@ -6,7 +6,6 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = [%q{Dan Engle}]
-  s.cert_chain = [%q{/Users/danengle/.ssh/gem-public_cert.pem}]
   s.date = %q{2011-06-01}
   s.description = %q{The yelp rubygem provides a Ruby object-oriented interface to the Yelp}
   s.email = %q{engle.68 @nospam@ gmail.com}
