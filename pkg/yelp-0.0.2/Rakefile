@@ -1,15 +1,14 @@
-require 'psych'
-require 'rubygems'
-require 'echoe'
-$:.unshift(File.dirname(__FILE__) + "/lib")
-require 'yelp'
-
-Echoe.new('yelp', '0.0.2') do |p|
-  p.description = "The yelp rubygem provides a Ruby object-oriented interface to the Yelp"
-  p.url = "http://github.com/danengle/yelp"
-  p.author = "Dan Engle"
-  p.email = "engle.68 @nospam@ gmail.com"
-  p.ignore_pattern = ["tmp/*", "script/*"]
-  p.development_dependencies = []
-  p.require_signed = false
+begin
+  require 'jeweler'
+  Jeweler::Tasks.new do |gemspec|
+    gemspec.name = "yelp"
+    gemspec.summary = "The yelp rubygem provides a Ruby object-oriented interface to the Yelp"
+    gemspec.description = "The yelp rubygem provides a Ruby object-oriented interface to the Yelp."
+    gemspec.email = "dengle@localoffernetwork.com"
+    gemspec.homepage = "http://github.com/danengle/yelp"
+    gemspec.authors = ["Dan Engle"]
+  end
+  Jeweler::GemcutterTasks.new
+rescue LoadError
+  puts "Jeweler not available. Install it with: sudo gem install jeweler -s http://gemcutter.org"
 end
